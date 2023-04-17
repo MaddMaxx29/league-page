@@ -97,7 +97,7 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">DYNASTY DOGS CONSTITUTION</h1>
+    <h1 class="noUnderscore">DIAMOND DOGS CONSTITUTION</h1>
     
     <h2 class="noUnderscore">ARTICLES OF THE CONSTITUTION</h2>
     
@@ -155,35 +155,35 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>23 Total Players not including IR or Taxi Squad</p>
+    <p>27 Total Players not including IR or Taxi Squad</p>
     
-    <p class="underscore">Starters</p>
+    <p class="underscore">Starters (10)</p>
     <ul>
         <li>QB</li>
         <li>RB</li>
         <li>RB</li>
         <li>WR</li>
         <li>WR</li>
-        <li>WR</li>
         <li>TE</li>
+        <li>FLEX (RB/WR/TE)</li>
         <li>FLEX (RB/WR/TE)</li>
         <li>FLEX (RB/WR/TE)</li>
         <li>SUPERFLEX (QB/RB/WR/TE)</li>
     </ul>
     
-    <p>13 Bench</p>
+    <p>17 Bench</p>
 
-    <p>4 Taxi Squad Spots (Player with 1 or more years of experience in the NFL must be activated from the Taxi Squad)</p>
+    <p>4 Taxi Squad Spots (Player with more than 1 year of experience in the NFL must be activated from the Taxi Squad).  In other words, both rookies (zero years NFL experience) and sophomores(1 year NFL experiencre) can legally be on the taxi squad. Once a player enters their junior year (3rd NFL season) they must be activated from the Taxi Squad.</p>
     
-    <p>3 IR Spots (Player must be labeled as IR, PUP, or COVID in the Sleeper App)</p>
+    <p>2 IR Spots (Player must be labeled as IR, PUP, or COVID in the Sleeper App)</p>
     
-    <p>Roster settings will never change without a majority league vote (6/10) and cannot be changed mid-season</p>
+    <p>Roster settings will never change without a majority league vote (8/12) and cannot be changed mid-season</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
         <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">6 active, 9 total</td></tr>
+                <tr><td>QB</td><td class="right">4 active, 8 total</td></tr>
                 <tr><td>RB</td><td class="right">20</td></tr>
                 <tr><td>WR</td><td class="right">20</td></tr>
                 <tr><td>TE</td><td class="right">10</td></tr>
@@ -219,17 +219,17 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set before kickoff of last game of week 11.</p>
+        <p>There is no trade deadline.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2023 season you cannot trade any picks in or after the 2026 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 6 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup WR). Not liking a trade does not warrant a veto.</p>
+        <p>A total of 8 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup WR). Not liking a trade does not warrant a veto.</p>
     </div>
     
     <h4 bind:this={oneTwoSix}>1.2.6 Conditional Trades</h4>
@@ -238,9 +238,9 @@
         
               <p>Examples of conditional trades:</p>
         <ol>
-             <li>During the 2022 season, John trades his 2023 1st round pick for Ferd's CMC. John and Ferd agree if the future 1st round pick is NOT a top 3 pick, Ferd also gets John's 2023 3rd round pick.</li>
-             <li>During the 2023 off-season, Joey trades his 2023 4nd round pick for Sean's Gronkowski.  Joey and Sean agree if Gronk is signed to an NFL the night before the 2023 Rookie draft, the trade is reversed.</li>
-             <li>During the 2022 season, Jonathan trades away Zach Ertz who iss currently on IR to Jerrid for a 2023 3rd round pick. Jonathan and Jerrid agree if Ertz is not back from IR before Week 10 that the 2023 3rd round pick will be upgraded to a 2023 2nd round pick plus Jonathan will give $5 FAAB to Jerrid.</li>
+             <li>During the 2022 season, Sean trades his 2023 1st round pick for Jorge's CMC. Sean and Jorge agree if the future 1st round pick is NOT a top 3 pick, Jorge also gets Sean's 2023 3rd round pick.</li>
+             <li>During the 2023 off-season, Brandon trades his 2023 4nd round pick for Lou's Gronkowski.  Brandon and Lou agree if Gronk is signed to an NFL the night before the 2023 Rookie draft, the trade is reversed.</li>
+             <li>During the 2022 season, Julienne trades away Zach Ertz who is currently on IR to Myron for a 2023 3rd round pick. Julienne and Myron agree if Ertz is not back from IR before Week 10 that the 2023 3rd round pick will be upgraded to a 2023 2nd round pick plus Julienne will give $5 FAAB to Myron.</li>
         </ol>
         
         <p>These are a few examples of things that cannot be done with conditional pieces:</p>
@@ -248,6 +248,7 @@
              <li>Conditional players cannot be dropped or traded away before the agreed conditional cutoff time is met.</li>
              <li>All FAAB cannot be spent if FAAB was the conditional piece.</li>
              <li>Conditional picks cannot be traded away before the agreed conditional cutoff time is met.</li>
+             <li>Conditional picks must be owner specific.  If a conditional trade involves Corgi's 2024 2nd round pick, a different manager's 2024 2nd round pick cannot be used as substitute even if Corgi owns several 2024 2nd round picks.</li>
         </ol>
 
     </div>
@@ -257,7 +258,7 @@
     
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Tuesday night / Wednesday Morning 12AM PST / 2AM CST / 3AM EST.</p>
 
-    <p>FAAB budgets will reset each season after the Championship game.</p>
+    <p>FAAB budgets will reset each season after the Championship game.  The $100 FAAB allocation is for both the off-season and in-season.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Article 2 Drafting</h2>
@@ -270,17 +271,15 @@
         <li>2nd Least in Max Points For (non-Playoff team)</li>
         <li>3rd Least in Max Points For (non-Playoff team)</li>
         <li>4th Least in Max Points For (non-Playoff team)</li>
-        <li>1st Least in Max Points between the 5th & 6th Seed Playoff Teams</li>
-        <li>2nd Least in Max Points between the 5th & 6th Seed Playoff Teams</li>
+        <li>5th Least in Max Points For (non-Playoff team)</li>
+        <li>6th Least in Max Points For (non-Playoff team)</li>
+        <li>1st Least in Max Points between the 7th & 8th Seed Playoff Teams</li>
+        <li>2nd Least in Max Points between the 7th & 8th Seed Playoff Teams</li>
         <li>4th Place Finisher</li>
         <li>3rd Place Finisher</li>
         <li>2nd Place Finisher</li>
         <li>League Champion</li>
     </ol>
-    
-    <p>2021 Season and 2022 Rookie Draft: A mistake was made during the inaugural season. Draft order for positions 5-10 were based off playoff season standings while positions 1-4 were based off regular season standings. Draft order was not corrected based on Article 2.1 as 2022 draft pick trades had already been exchanged via trades before the Dynasty Dog Constitution was drafted. Starting the 2022 season Article 2.1 is in full effect.</p>
-    
-    <p>2022 Season and 2023 Rookie Draft: Draft order for positions 5-10 were based off playoff season standings while positions 1-4 were based off regular season standings. League voted during 2022 Season to institute new draft order rules starting the 2023 season.</p>
     
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rookie drafts will consist of 4 rounds of drafting, with 8 hours alotted for each pick. Players can be moved into the taxi squad until the regular season start of week 1. Once deadline passes, players may no longer be moved into the taxi squad.</p>
@@ -292,7 +291,7 @@
     <h2 class="sectionHeading" bind:this={three}>Article 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring but with a 1PPR Scoring for the TEs). The scoring system will never change without a majority league vote (6/10) and cannot change mid-season.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring but with a 1PPR Scoring for the TEs). The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Article 4 Postseason</h2>
     
@@ -313,7 +312,7 @@
     <h2 class="sectionHeading" bind:this={five}>Article 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty or start ineligible players. Ineligible players include players with the following statuses: IR, Suspended, or free agents. Any evidence of intentionally leaving roster spots empty or starting ineligible players in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <p>No team may intentionally leave starting roster spots empty or start ineligible players. Ineligible players include players with the following statuses: IR, Suspended, or free agents (i.e. are not signed to an NFL team). Any evidence of intentionally leaving roster spots empty or starting ineligible players in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Article 6 Replacing Managers</h2>
     
@@ -329,19 +328,17 @@
     <h2 class="sectionHeading" bind:this={seven}>Article 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.paypal.com/paypalme/CorgiKohmander">Paypal</a>, <a href="https://www.venmo.com/u/CorgiKoh">Venmo</a> [preferred] or Zelle (via my cell#) and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at {dues}$. Dues are collected through <a href="https://leaguesafe.com/join/4100765">LeagueSafe</a> and collection will be sent out no later than 9/27/23 11:59PM CST. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a $10 penalty will be added to their payment which is a default amount imposed by LeagueSafe for allowing Late Payments.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 7}$</li>
+        <li>1st place: {dues * 10}$</li>
         <li>2nd place: {dues * 2}$</li>
-        <li>3rd place: {dues}$</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the 1st place winner's payout. Similarly, if new managers comes into the league and the payout is smaller, the difference will come out of the 1st place winner's prize.</p>
     
      <h3 bind:this={sevenThree}>7.4 Last Place Punishment</h3>
-    <p>The manager who finishes with the worst regular season record is required to pay the fee to upgrade the Dynasty Dog Trophy for the 1st place winner. The current cost is $12 for engraving plus any taxes and shipping(as of 2022 total was $16.34). The link to purchase the engraved name plate can be found <a href="https://www.fantasychamps.com/products/engraved-name-plate-black-gold/">HERE</a>.</p>   
+    <p>As a league we can come up with a punishiment for the last place team.</p>   
     
     <p>If two teams finish with the same losing record the tiebreakers will go as followed:</p>
     
@@ -354,7 +351,7 @@
     </ol>
     
     <h3 bind:this={sevenFour}>7.4 Raising Dues</h3>
-    <p>A majority vote (6/10) is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost should be explored first before Article 6.2: Replacing Managers is initiated.</p>
+    <p>A majority vote (8/12) is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buy-in, finding a co-manager to split the cost should be explored first before Article 6.2: Replacing Managers is initiated.</p>
 
      <h2 class="sectionHeading" bind:this={eight}>Article 8 Miscellaneous Rules</h2>
     
