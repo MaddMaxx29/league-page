@@ -267,16 +267,16 @@
     <p>Starting 2024 Rookie Draft and onward: The draft order each year will be a linear draft in the following order:</p>
    
     <ol>
-        <li>1st Least in Max Points For (non-Playoff team)</li>
-        <li>2nd Least in Max Points For (non-Playoff team)</li>
-        <li>3rd Least in Max Points For (non-Playoff team)</li>
-        <li>4th Least in Max Points For (non-Playoff team)</li>
-        <li>5th Least in Max Points For (non-Playoff team)</li>
-        <li>6th Least in Max Points For (non-Playoff team)</li>
-        <li>1st Least in Max Points between the 7th & 8th Seed Playoff Teams</li>
-        <li>2nd Least in Max Points between the 7th & 8th Seed Playoff Teams</li>
-        <li>4th Place Finisher</li>
-        <li>3rd Place Finisher</li>
+        <li>1st Least in Max Points For Non-Playoff teams</li>
+        <li>2nd Least in Max Points For Non-Playoff teams</li>
+        <li>3rd Least in Max Points For Non-Playoff teams</li>
+        <li>4th Least in Max Points For Non-Playoff teams</li>
+        <li>5th Least in Max Points For Non-Playoff teams</li>
+        <li>6th Least in Max Points For Non-Playoff teams</li>
+        <li>1st Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
+        <li>2nd Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
+        <li>3st Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
+        <li>4st Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
         <li>2nd Place Finisher</li>
         <li>League Champion</li>
     </ol>
@@ -291,7 +291,7 @@
     <h2 class="sectionHeading" bind:this={three}>Article 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring but with a 1PPR Scoring for the TEs). The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (1 PPR, 1.5PPR TE Premium, 1/2 point per first down, 6pt QB passing). The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Article 4 Postseason</h2>
     
