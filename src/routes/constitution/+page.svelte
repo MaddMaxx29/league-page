@@ -174,7 +174,7 @@
     <p>17 Bench</p>
 
     <p>4 Taxi Squad Spots (Player with more than 1 year of experience in the NFL must be activated from the Taxi Squad).</p>
-    <p>In other words, both rookies (zero years NFL experience) and sophomores (1 year NFL experiencre) can legally be on the taxi squad. Once a player enters their junior year (3rd NFL season) they must be activated from the Taxi Squad.</p>
+    <p>In other words, both rookies (zero years NFL experience) and sophomores (1 year NFL experience) can legally be on the taxi squad. Once a player enters their junior year (3rd NFL season) they must be activated from the Taxi Squad.</p>
     
     <p>2 IR Spots (Player must be labeled as IR, PUP, or COVID in the Sleeper App).</p>
     
