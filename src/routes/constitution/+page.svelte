@@ -296,10 +296,11 @@
 <ul>
         <li>1 PPR</li>
         <li>1.5 PPR for TE</li>
-        <li>0.5 Point per 1st down(rush/receiving</li>
+        <li>0.5 Point per 1st down (rushing/receiving</li>
         <li>1 point per 10 yards rushing/receiving</li>
         <li>1 point per 25 yards passing</li>
         <li>6 point passing TD</li>
+        <li>Fractional scoring enabled</li>
     </ul>
     <p>The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
     
