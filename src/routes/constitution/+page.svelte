@@ -173,11 +173,12 @@
     
     <p>17 Bench</p>
 
-    <p>4 Taxi Squad Spots (Player with more than 1 year of experience in the NFL must be activated from the Taxi Squad).  In other words, both rookies (zero years NFL experience) and sophomores(1 year NFL experiencre) can legally be on the taxi squad. Once a player enters their junior year (3rd NFL season) they must be activated from the Taxi Squad.</p>
+    <p>4 Taxi Squad Spots (Player with more than 1 year of experience in the NFL must be activated from the Taxi Squad).</p>
+    <p>In other words, both rookies (zero years NFL experience) and sophomores (1 year NFL experiencre) can legally be on the taxi squad. Once a player enters their junior year (3rd NFL season) they must be activated from the Taxi Squad.</p>
     
-    <p>2 IR Spots (Player must be labeled as IR, PUP, or COVID in the Sleeper App)</p>
+    <p>2 IR Spots (Player must be labeled as IR, PUP, or COVID in the Sleeper App).</p>
     
-    <p>Roster settings will never change without a majority league vote (8/12) and cannot be changed mid-season</p>
+    <p>Roster settings will never change without a majority league vote (8/12) and cannot be changed mid-season.</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
@@ -200,12 +201,12 @@
         <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
         
         <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
+            <li>First Offense – Immediate reduction of FAAB budget by 80%.</li>
+            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids.</li>
             <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
         </ul>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
 
         <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
 
