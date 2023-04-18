@@ -292,7 +292,16 @@
     <h2 class="sectionHeading" bind:this={three}>Article 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (1 PPR, 1.5PPR TE Premium, 1/2 point per first down, 6pt QB passing). The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app:</p>
+<ul>
+        <li>1 PPR</li>
+        <li>1.5 PPR for TE</li>
+        <li>0.5 Point per 1st down(rush/receiving</li>
+        <li>1 point per 10 yards rushing/receiving</li>
+        <li>1 point per 25 yards passing</li>
+        <li>6 point passing TD</li>
+    </ul>
+    <p>The scoring system will never change without a majority league vote (8/12) and cannot change mid-season.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Article 4 Postseason</h2>
     
