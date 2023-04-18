@@ -230,7 +230,7 @@
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 8 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup WR). Not liking a trade does not warrant a veto.</p>
+        <p>A total of 8 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a practice squad WR). Not liking a trade does not warrant a veto.</p>
     </div>
     
     <h4 bind:this={oneTwoSix}>1.2.6 Conditional Trades</h4>
@@ -329,9 +329,10 @@
     <h2 class="sectionHeading" bind:this={seven}>Article 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. The startup we will be paying for both the 2023 and 2024 seasons up-front. After the completion of the 2023 season, managers will pay for only 1 season in advance. Dues are collected through <a href="https://leaguesafe.com/join/4100765">LeagueSafe</a> and collection will be sent out no later than 9/27/23 11:59PM CST. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a $10 penalty will be added to their payment which is a default amount imposed by LeagueSafe for allowing Late Payments.</p>
+    <p>League dues are set at {dues}$. The startup we will be paying for both the 2023 and 2024 seasons up-front. After the completion of the 2023 season, managers will pay only need to pay for 1 season in advance so we are always covered 2 seasons out. Dues are collected through <a href="https://leaguesafe.com/join/4100765">LeagueSafe</a> and collection will be sent out no later than 9/27/23 11:59PM CST. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a $10 penalty will be added to their payment which is a default amount imposed by LeagueSafe for allowing Late Payments.</p>
     
-   <p>To prevent pump and dump strategies of trading away all future picks for a win-now team then abandoing the team, if a future pick outside of the prepaid season is trade away, managers will need to pay the league dues for that season.  For example if during the 2023 season, Julienne trades away his 2026 1st round pick, he would be required to pay dues equal to 1 season.  If he traded away his 2025 and 2026 1st rounders, he would need to pay for 2 seasons worth of dues.</p>
+   <p>To prevent pump and dump strategies of trading away all future picks for a win-now team then abandoning the lesgue, if a future pick outside of the prepaid seasons is traded away, managers will need to pay the league dues for that season.</p>
+    <p>For example if during the 2023 season, Julienne trades away his 2026 1st round pick, he would be required to pay dues equal to 1 season.  If he traded away his 2025 and 2026 1st rounders, he would need to pay for 2 seasons worth of dues.</p>
    
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
