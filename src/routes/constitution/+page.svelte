@@ -276,8 +276,8 @@
         <li>6th Least in Max Points For Non-Playoff teams</li>
         <li>1st Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
         <li>2nd Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
-        <li>3st Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
-        <li>4st Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
+        <li>3rd Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
+        <li>4th Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
         <li>2nd Place Finisher</li>
         <li>League Champion</li>
     </ol>
