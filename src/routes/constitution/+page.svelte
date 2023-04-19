@@ -347,9 +347,9 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 9}$</li>
-        <li>2nd place: {dues * 2}$</li>
-        <li>3rd place: {dues * 1}$</li>
+        <li>1st place: ${dues * 9}</li>
+        <li>2nd place: ${dues * 2}</li>
+        <li>3rd place: ${dues * 1}</li>
     </ul>
     
      <h3 bind:this={sevenThree}>7.3 Last Place Punishment</h3>
