@@ -9,7 +9,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>The Diamond Dogs League was founded in 2023 and pits family, friends, and colleagues against one another in a cutthroat battle of fantasy football skills and shrewd trading practices to create a dynasty team worthy of multiple championship titles. </p>
 
- <p>Each season the champion will be taking home $1000 pocket cash and the right to brag and trash talk all off-season.</p>
+ <p>Each season the champion will be taking home $900 pocket cash and the right to brag and trash talk all off-season.</p>
 `;
 
 /*   STEP 3   */
