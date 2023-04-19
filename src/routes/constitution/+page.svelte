@@ -276,8 +276,8 @@
         <li>6th Least in Max Points For Non-Playoff teams</li>
         <li>1st Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
         <li>2nd Least in Max Points between the 5th & 6th place Playoff Teams (losers of the first round)</li>
-        <li>3rd Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
-        <li>4th Least in Max Points between the 3rd & 4th place Playoff Teams (losers of the semi-finals)</li>
+        <li>4th Place Finisher</li>
+        <li>3rd Place Finisher</li>
         <li>2nd Place Finisher</li>
         <li>League Champion</li>
     </ol>
@@ -347,8 +347,9 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 10}$</li>
+        <li>1st place: {dues * 9}$</li>
         <li>2nd place: {dues * 2}$</li>
+        <li>3rd place: {dues * 1}$</li>
     </ul>
     
      <h3 bind:this={sevenThree}>7.3 Last Place Punishment</h3>
