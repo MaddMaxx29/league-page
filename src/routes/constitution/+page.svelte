@@ -97,7 +97,7 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">DIAMOND DOGS CONSTITUTION</h1>
+    <h1 class="noUnderscore">DIAMOND DOGS DYNASTY CONSTITUTION</h1>
     
     <h2 class="noUnderscore">ARTICLES OF THE CONSTITUTION</h2>
     
