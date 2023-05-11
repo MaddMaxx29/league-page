@@ -1,13 +1,13 @@
 /*   STEP 1   */
 export const leagueID = "931316844051456000"; // your league ID
-export const leagueName = "Diamond Dogs"; // your league name
+export const leagueName = "Diamond Dogs Dynasty"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>The Diamond Dogs League was founded in 2023 and pits family, friends, and colleagues against one another in a cutthroat battle of fantasy football skills and shrewd trading practices to create a dynasty team worthy of multiple championship titles. </p>
+  <p>The Diamond Dogs Dynasty League was founded in 2023 and pits family, friends, and colleagues against one another in a cutthroat battle of fantasy football skills and shrewd trading practices to create a dynasty team worthy of multiple championship titles. </p>
 
  <p>Each season the champion will be taking home $900 pocket cash and the right to brag and trash talk all off-season.</p>
 `;
